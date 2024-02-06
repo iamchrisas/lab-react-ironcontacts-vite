@@ -5,6 +5,47 @@
   text-align: center;
 }
 
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #646cff;
+  color: rgb(255, 255, 255);
+}
+
+tr:nth-child(even) {
+  background-color: #646cff;
+}
+
+tr:hover {
+  background-color: #6464ff56;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
